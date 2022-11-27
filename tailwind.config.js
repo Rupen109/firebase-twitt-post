@@ -9,9 +9,9 @@ module.exports = {
       fontFamily: {
         poppins: ["Poopins","sans-sarif"],
       },
-      backgroundImage: {
-        // bgs : "url('./src/vector4.jpg')",
-      }
+      // backgroundImage: {
+      //   'bgs' : "url('./src/MAN_TELECONFERENCE_WITH_TEAM-removebg.png')",
+      // }
     },
   },
   plugins: [],

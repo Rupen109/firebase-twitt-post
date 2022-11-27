@@ -55,7 +55,7 @@ export default function Post() {
     };
 
     return (
-        <div className="text-white my-20 p-12 shadow-xl shadow-[#06B6D4]/50 border-red-100 border-t-2 max-w-3xl mx-auto rounded-lg">
+        <div className="text-white my-20 p-12 bg-[url('../public/MAN_TELECONFERENCE_WITH_TEAM-removebg.png')] bg-contain bg-right  bg-no-repeat  shadow-xl border-red-100 border-t-2 border-b-2 max-w-3xl mx-auto rounded-lg">
             <form onSubmit={submitPost}>
                 <h1 className="text-2xl text-[#1D9BF0] font-bold">Create a New Post</h1>
                 <div className="py-2">
@@ -63,11 +63,11 @@ export default function Post() {
                     <textarea
                         value={post.description}   
                         onChange={(e) => setPost({ ...post, description: e.target.value })}    
-                        className="bg-gray-300/30 h-44 w-full rounded-lg p-2 text-sm" 
+                        className="bg-gray-300/20 text-white font-semibold h-44 w-full rounded-lg  p-2 text-xl backdrop-blur-sm hover:backdrop-blur-2xl" 
                     ></textarea> 
                     <p className={`text-cyan-600 font-medium text-sm ${post.description.length > 300 ? "text-red-600" : "" } `}>{ post.description.length }/300</p>
                 </div>
-                <button type="submit" className=" bg-cyan-600 font-medium p-2 w-28 my-2 rounded-lg mx-auto align-center justify-center">Submit</button>
+                <button type="submit" className=" bg-cyan-600 font-medium p-2 w-28 my-2 rounded-lg mx-auto align-center justify-center">Tweet</button>
             </form>
         </div>
     )
