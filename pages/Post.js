@@ -10,7 +10,6 @@ import {
     updateDoc,
 } from "firebase/firestore";
 import { toast } from "react-toastify";
-import { Router } from "react-router-dom";
 
 
 export default function Post() {
