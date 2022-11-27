@@ -35,7 +35,6 @@ export default function Dashboard() {
         await deleteDoc(docRef);
     }
     
-
     //get data from user
     useEffect(() => {
         getData();
@@ -62,7 +61,7 @@ export default function Dashboard() {
                         </Message>
                     );
                 })}
-            </div>
+            </div> 
             <button className="text-white my-12 bg-cyan-600 p-2 rounded-lg" onClick={() => auth.signOut()}>Sign out</button>
         </div>
     )
