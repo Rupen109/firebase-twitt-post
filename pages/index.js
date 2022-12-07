@@ -35,7 +35,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='my-12 text-lg font-extralight'>
-        <h2 className='text-2xl my-2 mx-auto text-[#06B6D4]'>See what other people are saying ?</h2>
+        <h2 className='text-2xl my-2 mx-auto text-[#06B6D4]'>Thoughts by creative minds.</h2>
         <h1 className=" h-0.5 w-14 mb-10 bg-white rounded"></h1>
         {allPosts && allPosts.map((post) => (
           <Message key={post.id} {...post}>
