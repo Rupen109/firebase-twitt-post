@@ -7,7 +7,7 @@ export default function Nav() {
     const [user, loading, error] = useAuthState(auth);
 
     return (
-        <nav className="flex justify-between items-center py-10">
+        <nav className="flex justify-between items-center py-10 lg:mt-0 mt-3">
             <Link href="/">
                 <button className="font-medium text-lg text-white">Creative Thoughts</button>
             </Link>
