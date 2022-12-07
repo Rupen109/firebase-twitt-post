@@ -53,10 +53,10 @@ export default function Dashboard() {
                                     <BsTrash2Fill className="text-2xl"/>
                                     Delete
                                 </button>
-                                <button className="text-teal-600 font-medium flex items-center justify-center gap-2 py-2 text-sm">
+                                {/* <button className="text-teal-600 font-medium flex items-center justify-center gap-2 py-2 text-sm">
                                     <AiFillEdit className="text-2xl" />
                                     Edit
-                                </button>
+                                </button> */}
                             </div>
                         </Message>
                     );
